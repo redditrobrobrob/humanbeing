@@ -1,9 +1,6 @@
 import java.util.ArrayList;
 
-public abstract class HumanObject implements HumanObjectInterface{
-    public HumanObject(){
-
-    }
+public abstract class LymphVessel extends Vessel implements HumanObjectInterface {
 
     @Override
     public ArrayList<HumanTissueType> getTissues() {
